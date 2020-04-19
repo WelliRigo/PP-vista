@@ -1,0 +1,446 @@
+/* === PREDEFINIÇÕES === */
+html { font-size: calc(1em + 1vw); }
+
+/* === CABEÇALHO === */
+body a{
+	text-decoration: none;
+}
+body header{
+	display: flex;
+	justify-content: space-between;
+}
+body header h1{
+	padding: 3vw 0 0 5vw;
+}
+body header h1 a{
+	font-size: 0.9em;
+	font-family: "Trebuchet MS black";
+	color: black;
+}
+body header nav ul{
+	padding: 3vw 9vw 3.5vw 7vw;
+	display: flex;
+	justify-content: space-between;
+}
+body header nav ul li{
+	padding: 0.25vw 1.3vw 0 1.3vw;
+}
+body header nav ul li a{
+	font-family: "Trebuchet MS";
+	font-size: 0.66em;
+	color: black;
+	vertical-align: center;
+}
+
+/* BANNER */
+body section.banner{
+	padding-bottom: 6vw;
+	background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../img/imagem-banner.jpg") no-repeat center center;
+	background-size: 100%, 100%;
+	color: white;
+}
+body section.banner h2{
+	font-family: "Trebuchet ms black";
+	font-size: 1.9em;
+	text-align: center;
+	padding: 11vw 0 0 0;
+}
+body section.banner p{
+	font-family: "Trebuchet MS";
+	text-align: center;
+	padding-top: 2.8vw;
+	font-size: 0.79em;
+}
+body section.banner p.buttons{
+	margin-top: 4.6vw;
+}
+body section.banner p.buttons a{
+	color: white;
+	margin: 0 1vw 0 1vw;
+	font-size: 0.8em;
+	font-family: "Trebuchet MS";
+	text-align: center;
+}
+body section.banner p.buttons a.serv{
+	border-style: solid;
+	border-width: 0.1vw;
+	border-color: white;
+	padding: 1.3vw 1.5vw 1.3vw 1.5vw;
+}
+body section.banner p.buttons a.cont{
+	background: #007A6D linear-gradient(rgba(0,136,122, 1), rgba(0,113,100,1));
+	padding: 1.3vw 2.5vw 1.3vw 2.5vw;
+}
+
+
+
+/* === ÚLTIMOS TRABALHOS === */
+body section.trabalhos h3{
+	padding-top: 9.4vw;
+	font-size: 1.2em;
+	font-family: "Trebuchet MS black";
+	text-align: center;
+}
+body section.trabalhos p{
+	margin: 1.5vw 30vw 0 30vw;
+	font-family: "Trebuchet MS";
+	font-size: 0.52em;
+	text-align: center;
+}
+body section.trabalhos ul{
+	display: flex;
+	justify-content: center;
+	margin-top: 7vw;
+	font-family: "Trebuchet MS";
+	font-size: 0.73em;
+}
+body section.trabalhos ul li a{
+	color: black;
+	border-style: solid;
+	border-width: 0.15vw;
+	border-color: #007A6D; 
+	padding: 1vw 2vw 1vw 2vw;
+	margin: 0 .6vw 0 .6vw;
+}
+body section.trabalhos ul li a.all{
+	color: white;
+	background: #007A6D linear-gradient(rgba(0,136,122, 1), rgba(0,113,100,1));
+}
+body section.trabalhos ul.imagens{
+	display: flex;
+	flex-wrap: wrap;
+}
+body section.trabalhos ul.imagens li{
+	width: 29%;
+	margin: 1vw 1vw 1vw 1vw;
+}
+body section.trabalhos ul.imagens li img{
+	width: 100%;
+}
+body section.trabalhos p.button{
+	margin: 9.5vw 0 9vw 0;
+}
+body section.trabalhos p.button a{
+	background: #007A6D;
+	font-size: 1.2em;
+	color: white;
+	padding: 1.2vw 4vw 1.2vw 4vw;
+}
+
+/* === SERVIÇOS === */
+body section.servicos{
+	background: #E2FCF8;
+	margin-top: 3vw;
+	padding: 0 0 4vw 0;
+	font-family: "Trebuchet MS";
+}
+body section.servicos h3{
+	padding: 5vw 0 0 0;
+	text-align: center;
+	font-size: 1em;
+}
+body section.servicos p{
+	text-align: center;
+	font-size: .52em;
+	padding: 3vw 0 0 0;
+	margin: 0 25% 0 25%; 
+}
+body section.servicos ul{
+	margin: 5vw 0 0 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+body section.servicos ul li{
+	background: #FFFFFF;
+	width: 25%;
+	margin: 1vw 1vw 1vw 1vw; 
+	text-align: center;
+	padding: 1vw 0 3vw 0;
+}
+body section.servicos ul li.primeiro{
+	background: #00887A;
+	color: white;
+	box-shadow: 0 .5vw 1.1vw grey;
+}
+body section.servicos ul li img{
+	width: 16%;
+	margin: 4vw 0 0 0.4vw;
+}
+body section.servicos ul li h4{
+	font-size: .73em;
+	padding: 2vw 0 0 0;
+}
+body section.servicos ul li p{
+	margin: 0 15% 0 15%;
+	font-size: .5em;
+	line-height: 1.5vw;
+}
+body section.servicos ul li p.button a{
+	color: black;
+	border-style: solid;
+	border-width: 0.15vw;
+	border-color: black;
+	padding: 1vw 2vw 1vw 2vw;
+}
+body section.servicos ul li.primeiro p.button a{
+	color: white;
+	border-color: white;
+}
+
+/* === BLOG === */
+body section.blog{
+	text-align: center;
+	font-family: "Trebuchet MS";
+}
+body section.blog h3{
+	padding: 7vw 0 0 0;
+	font-family: "Trebuchet MS black";
+}
+body section.blog>p{
+	padding: 2vw 0 7vw 0;
+	font-size: .5em;
+	margin: 0 27% 0 27%;
+}
+body section.blog ul li{
+	display: flex;
+	text-align: left;
+}
+body section.blog>ul>li{
+	margin: 0 7vw 0 7vw;
+}
+body section.blog ul li.meio{
+	flex-direction: row-reverse;
+}
+body section.blog ul li div{
+	margin: 3vw 0 0 2.7vw;
+}
+body section.blog ul li div.meio{
+	margin: 3vw 0 0 0;
+}
+body section.blog ul li div h4{
+	font-size: .8em;
+}
+body section.blog ul li div h4.azulado{
+	color: rgb(0,132,126);
+}
+body section.blog>ul>li>img{
+	width: 50%;
+	height: 50%;
+}
+body section.blog ul li div img{
+	width: 1vw;
+	height: 1vw; 
+}
+body section.blog ul li div>p{
+	font-size: 0.5em;	
+	margin: 2vw 10vw 0 0;
+}
+body section.blog ul li div ul{
+	display: flex;
+}
+body section.blog ul li div ul li{
+	padding: 1vw 0 0 0;
+}
+body section.blog ul li div ul li p{
+	font-size: 0.6em;
+	margin: 0 3vw 0 1vw;
+}
+body section.blog p.button{
+	margin: 5vw 0 5vw 0;
+}
+body section.blog p.button a{
+	background: #007A6D;
+	font-size: 1.2em;
+	color: white;
+	padding: 1.2vw 4vw 1.2vw 4vw;
+}
+
+
+/* === FOOTER ===*/
+body footer{
+	background: linear-gradient(rgb(0,138,123), rgb(11,92,85));
+	text-align: center;
+	font-family: "Trebuchet MS";
+	color: white;
+	font-size: .67em;
+	padding: 2vw 0 2vw 0;
+}
+
+/* === BREAKPOINTS === */
+@media all and (max-width: 1199px) { 
+	/* TRABALHOS*/
+	body section.trabalhos>p{
+		font-size: .6em;
+	}
+	body section.trabalhos ul li img{
+		font-size: .6em;
+	}
+	body section.trabalhos ul.imagens{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	body section.trabalhos ul.imagens li{
+		width: 40%;
+		margin: .5vw .5vw .5vw .5vw;
+	}
+	body section.trabalhos ul.imagens li img{
+		width: 100%;
+	}
+	/*SERVIÇOS*/
+	body section.servicos p{
+		font-size: .6em;
+		margin: 3vw 20% 3vw 20%;
+	}
+	body section.servicos ul li{
+		width: 35%;
+		margin: 1vw 4% 2.5vw 4%;
+	}
+	body section.servicos ul li img{
+		width: 21%;
+	}
+	body section.servicos ul li h4{
+		font-size: .8em;
+	}
+	body section.servicos ul li p{
+		font-size: .65em;
+		line-height: 3vw;
+	}
+	/*BLOG*/
+	body section.blog p{
+		font-size: .6em;
+	}
+	body section.blog ul li div ul li img{
+		width: 2vw; 
+		height: 2vw;
+	}
+	body section.blog ul li div p{
+		font-size: .55em;
+	}
+
+ } 
+
+@media all and (max-width: 480px) { 
+	/* === CABEÇALHO === */
+	body header{
+		display: block;
+		text-align: center;
+	}
+	body header h1{
+		padding: 3vw 0 0 0;
+		font-size: 1.7em;
+	}
+	body header nav ul{
+		display: block;
+	}
+	body header nav ul li{
+		font-size: 1.3em;
+	}
+
+	/* === BANNER === */
+	body section.banner p.buttons a{
+		font-size: 1em;
+		display: block;
+		margin: 3vw 30% 0 30%;
+	}
+	/* === ÚLTIMOS TRABALHOS === */
+	body section.trabalhos>p{
+		font-size: .74em;
+		margin: 3vw 15% 1vw 15%;
+	}
+	body section.trabalhos>ul{
+		display: block;
+		text-align: center;
+		font-size: .74em;
+		margin-top: 0;
+	}
+	body section.trabalhos>ul>li{
+		padding: 5vw 0 0 0;
+	}
+	body section.trabalhos ul.imagens{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	body section.trabalhos ul.imagens li{
+		width: 60%;
+		margin: .5vw .5vw .5vw .5vw;
+	}
+	body section.trabalhos ul.imagens li img{
+		width: 100%;
+	}
+	/* === SERVIÇOS === */
+	body section.servicos h3{
+		font-size: 1.2em;
+	}
+	body section.servicos p{
+		font-size: .74em;
+		margin: 3vw 15% 3vw 15%;
+	}
+	body section.servicos ul{
+		display: block;	
+	}
+	body section.servicos ul li{
+		width: 70%;
+		margin: 4vw 15% 0 15%;
+	}
+	body section.servicos ul li img{
+		width: 21%;
+	}
+	body section.servicos ul li h4{
+		font-size: .8em;
+		margin-top: 3vw;
+	}
+	body section.servicos ul li p{
+		font-size: .645em;
+		line-height: 4vw;
+	}
+	body section.servicos ul li p.button{
+		font-size: .74em;
+		margin: 4vw 0 5vw 0;
+	}
+	/* === BLOG === */
+	body section.blog h3{
+		font-size: 1.2em;
+	}
+	body section.blog>p{
+		font-size: .74em;
+		margin: 2vw 15% 0 15%;
+	}
+	body section.blog>ul>li{
+		display: block;
+		text-align: center;
+	}
+	body section.blog>ul>li>img{
+		width: 70%;
+		margin-top: 4vw;
+	}
+	body section.blog ul li div>p{
+		margin: 0 0 0 0;
+	}
+	body section.blog ul li div h4{
+		font-size: .85em;
+		margin: 1vw 0 1.5vw 0;
+	}
+	body section.blog ul li div ul{
+		display: block;
+		margin-bottom: 1.5vw;
+	}
+	body section.blog ul li div ul li{
+		justify-content: center;
+	}
+	body section.blog ul li div ul li img{
+		width: 3.5vw;
+		height: 3.5vw;
+	}
+	body section.blog ul li div ul li p{
+		font-size: .645em;
+	}
+	body section.blog ul li div p{
+		font-size: .645em;
+		margin-bottom: 5vw;
+	}
+	body section.blog p.button a{
+		font-size: 1em;
+	}
+}
